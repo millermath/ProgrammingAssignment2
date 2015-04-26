@@ -1,4 +1,4 @@
-makeCacheMatrix<-function(x=matrix()){                     #makeCacheMatris consists of list of four functions  set, get, setinverse, getinverse
+makeCacheMatrix<-function(x=matrix()){                     #makeCacheMatrix consists of list of four functions  set, get, setinverse, getinverse
         I<-NULL
         set<-function(y){                                                          #changes the matrix stored in the main function
                 x<<-y
